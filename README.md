@@ -37,7 +37,10 @@ https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/2bbe1305
 
 The final scenario introduced a moving goal, linked with one of the satellites, elevating the problem's complexity by requiring the spacecraft to predict the future position of the moving goal while avoiding the orbiting satellites. This scenario pushed the limits of our trajectory optimization framework, demanding high precision in trajectory planning and control.
 
-https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/7e79ffd2-8c59-4885-9dfd-a401620a77e1
+
+
+https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/a4c656fd-50b8-4892-b841-f74bef4fbf0c
+
 
 
 
