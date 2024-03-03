@@ -9,6 +9,8 @@ The essence of the project was to compute optimal trajectories for a spacecraft 
   <img src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/6463292a-f1c5-4b7d-a8c8-9e9d91da04c4" width="300" /> 
 </p>
 
+[Rocket dynamics code implementation](./src/pdm4ar/exercises/ex09/planner.py)
+
 
 ## Methodological Approach
 We developed the solution based on the following paper (Convex Optimisation for Trajectory Generation) on SCvx, the planning method used in 2021 by spaceX to land their rocket on a moving platform in the middle of the ocean.
@@ -17,12 +19,15 @@ We developed the solution based on the following paper (Convex Optimisation for 
 
 SCvx stood at the core of our approach, offering a framework to iteratively linearize and solve the non-convex trajectory optimization problem as a series of convex subproblems. This method is particularly suited for dealing with the nonlinear dynamics and constraints of spacecraft navigation.
 
-[Link Text](./src/pdm4ar/exercises/ex09/planner.py)
+[SCvx code implementation](./src/pdm4ar/exercises/ex09/planner.py)
 
 
 ### Discretization
 
 To apply SCvx effectively, the project employed discretization techniques, including ZeroOrderHold and FirstOrderHold, to approximate the spacecraft's continuous-time dynamics with discrete-time models. This step was critical for linearizing the spacecraft’s dynamics around a reference trajectory, facilitating the application of convex optimization tools.
+
+[Discretization implementation](./src/pdm4ar/exercises/ex09/discretization.py)
+
 
 
 ## Scenarios and Challenges
