@@ -23,7 +23,6 @@ To apply SCvx effectively, the project employed discretization techniques, inclu
 The first scenario introduced the basic challenge of navigating around static obstacles (planets) to reach a fixed goal. The primary challenge was accurately modeling the planets as obstacles and generating efficient paths that minimize fuel consumption and time.
 <video width="320" height="240" controls>
   <source src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/93d01f6b-f09e-402d-93ab-e667514e0bfb" type="video/mp4">
-  Your browser does not support the video tag.
 </video>
 
 
@@ -35,6 +34,8 @@ Building on the complexity, the second scenario added moving obstacles (satellit
 ### Scenario 3: Dodging a Planet and Its Satellites with a Time-Varying Goal
 
 The final scenario introduced a moving goal, linked with one of the satellites, elevating the problem's complexity by requiring the spacecraft to predict the future position of the moving goal while avoiding t
+
+<video src="[https://user-images.githubusercontent.com/18750753/194152429-9d2d454f-a878-48fd-be8f-70cadf68d2bf](https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/93d01f6b-f09e-402d-93ab-e667514e0bfb).mp4" />
 
 https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/93d01f6b-f09e-402d-93ab-e667514e0bfb
 
