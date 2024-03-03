@@ -1,0 +1,221 @@
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript"
+        src="index.html_resources/static/jquery/jquery.js"></script>
+
+    <!-- Use imagezoom plugin -->
+    <script type="text/javascript"
+        src="index.html_resources/static/jquery/jquery.imageZoom.js"></script>
+    <link rel="stylesheet"
+          href="index.html_resources/static/jquery/jquery.imageZoom.css"/>
+    <script type="text/javascript">
+        $(document).ready( function () {
+            $('.zoomable').imageZoom();
+        });
+    </script>
+
+
+    <!-- Use tablesorter plugin -->
+    <script type="text/javascript"
+            src="index.html_resources/static/jquery/tablesorter/jquery.tablesorter.js"></script>
+    <link rel="stylesheet"
+          href="index.html_resources/static/jquery/tablesorter/themes/blue/style.css"/>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".tablesorter").tablesorter();
+    }
+    );
+    </script>
+    
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: {
+            equationNumbers: { autoNumber: "AMS" },
+            extensions: ["AMSmath.js", "AMSsymbols.js"]
+        },
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/SVG"], //" "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$']],
+          displayMath: [ ['$$','$$'] ],
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+      //MathJax.Ajax.loadComplete("/media/tex/symbols.js");
+    </script>
+
+    <script type='text/javascript'
+            src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+
+
+    <style type="text/css">
+    /* Extra CSS passed by user. */
+        
+    </style>
+
+
+    <link rel="stylesheet"
+          href="index.html_resources/static/reprep/default_style.css"/>
+
+    <title> Evaluation </title>
+<body>
+
+<p id="reprep-head">
+    Report created on 2024-01-10-20:36:01
+    by <a href="http://purl.org/censi/2010/RepRep">RepRep</a>.
+    Show:
+    <input type="submit" name="datanode_toggle"
+           value="data nodes" id="datanode_toggle" />
+</p>
+
+
+
+<script type="text/javascript">
+ $(document).ready(function() {
+   $('.datanode').hide();
+   $('#datanode_toggle').click(function(){
+     $('.datanode').toggle();
+   });
+ });
+</script>
+
+
+
+    <div class='report-node' id="Evaluation">
+    <h><a href="#Evaluation">Evaluation</a></h><section> 
+<div class="report-nongui-nodes">
+
+            <div class="textnode report-text-node">
+
+                <span class="textid report-text-node-id"> Evaluated </span>
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">Test cases completion ratio:
+	(2/3)</pre>
+               </div>
+
+            </div>
+            
+            <div class="textnode report-text-node">
+
+                <span class="textid report-text-node-id"> OverallPerformance </span>
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">AggregatedPerformanceRes(n_test_cases=3,
+                         n_completed_test_cases=2,
+                         exceptions=[&apos;ValueError&apos;],
+                         perf_res=-1112.082991536257)</pre>
+               </div>
+
+            </div>
+            
+    <div class='report-node' id="Evaluation-Final23-config_mov_target">
+    <h><a href="#Evaluation-Final23-config_mov_target">Final23-config_mov_target</a></h><section> 
+<div class="report-nongui-nodes">
+
+            <div class="textnode report-text-node">
+
+                <span class="textid report-text-node-id"> EpisodeEvaluation: </span>
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">EpisodeOutcome(
+	goal_success_rate   =	 0.00,
+	collision_rate      =	 1.00,
+	avg_distance_travelled=	14.74,
+	avg_episode_duration=	13.68,
+	avg_distance2goal   =	11.84,
+	avg_actuation_effort=	 1.57,
+	avg_computation_time=	 0.00,
+	fuel_left           =	 0.39,
+
+)</pre>
+               </div>
+
+            </div>
+            
+            <div class="textnode report-text-node">
+
+                <span class="textid report-text-node-id"> OverallScore:  </span>
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">-1112.19</pre>
+               </div>
+
+            </div>
+            
+    <div class='report-node' id="Evaluation-Final23-config_mov_target-EpisodeVisualisation">
+    <h><a href="#Evaluation-Final23-config_mov_target-EpisodeVisualisation">EpisodeVisualisation</a></h><section> 
+<div class="report-nongui-nodes">
+<div style="clear:left" class='report-figure None' id='Evaluation-Final23-config_mov_target-EpisodeVisualisation-figure1'>
+    <p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="index.html_resources/Evaluation-Final23-config-mov-target-EpisodeVisualisation-figure1-Animation.mp4">Animation</a>:  video/mp4</p>
+</div>
+</div></div>
+</section> 
+</div> 
+</div>
+</section> 
+</div> 
+
+    <div class='report-node' id="Evaluation-Final23-config_mov_target3">
+    <h><a href="#Evaluation-Final23-config_mov_target3">Final23-config_mov_target3</a></h><section> 
+<div class="report-nongui-nodes">
+
+            <div class="textnode report-text-node">
+
+                <span class="textid report-text-node-id"> EpisodeEvaluation: </span>
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">EpisodeOutcome(
+	goal_success_rate   =	 0.00,
+	collision_rate      =	 1.00,
+	avg_distance_travelled=	 7.19,
+	avg_episode_duration=	17.52,
+	avg_distance2goal   =	16.73,
+	avg_actuation_effort=	 0.21,
+	avg_computation_time=	 0.00,
+	fuel_left           =	 0.46,
+
+)</pre>
+               </div>
+
+            </div>
+            
+            <div class="textnode report-text-node">
+
+                <span class="textid report-text-node-id"> OverallScore:  </span>
+
+               <div class="report-text-node-content">
+                 <pre class="report-text report-text-plain">-1111.98</pre>
+               </div>
+
+            </div>
+            
+    <div class='report-node' id="Evaluation-Final23-config_mov_target3-EpisodeVisualisation">
+    <h><a href="#Evaluation-Final23-config_mov_target3-EpisodeVisualisation">EpisodeVisualisation</a></h><section> 
+<div class="report-nongui-nodes">
+<div style="clear:left" class='report-figure None' id='Evaluation-Final23-config_mov_target3-EpisodeVisualisation-figure1'>
+    <p class="report-figure-caption"></p><div class="report-nongui-nodes">
+<p class="datanode"><a href="index.html_resources/Evaluation-Final23-config-mov-target3-EpisodeVisualisation-figure1-Animation.mp4">Animation</a>:  video/mp4</p>
+</div>
+</div></div>
+</section> 
+</div> 
+</div>
+</section> 
+</div> 
+</div>
+</section> 
+</div> 
+
+
+
+
+</body>
+</html>

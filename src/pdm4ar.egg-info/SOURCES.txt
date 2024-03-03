@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/pdm4ar/__init__.py
+src/pdm4ar/available_exercises.py
+src/pdm4ar/main.py
+src/pdm4ar.egg-info/PKG-INFO
+src/pdm4ar.egg-info/SOURCES.txt
+src/pdm4ar.egg-info/dependency_links.txt
+src/pdm4ar.egg-info/entry_points.txt
+src/pdm4ar.egg-info/not-zip-safe
+src/pdm4ar.egg-info/top_level.txt
