@@ -22,10 +22,7 @@ To apply SCvx effectively, the project employed discretization techniques, inclu
 ### Scenario 1: Dodging Planets with a Static Goal
 - [Trajectory Optimization Animation](https://github.com/CamillaMazzoleni/RocketLanding_SCvx/blob/main/out/09/index.html_resources/Evaluation-Final23-config-mov-target-EpisodeVisualisation-figure1-Animation.mp4)
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/blob/main/out/09/index.html_resources/Evaluation-Final23-config-mov-target-EpisodeVisualisation-figure1-Animation.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/blob/main/out/09/index.html_resources/Evaluation-Final23-config-mov-target-EpisodeVisualisation-figure1-Animation.mp4" /> 
 The first scenario introduced the basic challenge of navigating around static obstacles (planets) to reach a fixed goal. The primary challenge was accurately modeling the planets as obstacles and generating efficient paths that minimize fuel consumption and time.
 
 ### Scenario 2: Dodging a Planet and Its Satellites with a Static Goal
