@@ -31,5 +31,9 @@ Building on the complexity, the second scenario added moving obstacles (satellit
 
 ### Scenario 3: Dodging a Planet and Its Satellites with a Time-Varying Goal
 
-The final scenario introduced a moving goal, linked with one of the satellites, elevating the problem's complexity by requiring the spacecraft to predict the future position of the moving goal while avoiding the orbiting satellites. This scenario pushed the limits of our trajectory optimization framework, demanding high precision in trajectory planning and control.
+The final scenario introduced a moving goal, linked with one of the satellites, elevating the problem's complexity by requiring the spacecraft to predict the future position of the moving goal while avoiding t
+
+https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/93d01f6b-f09e-402d-93ab-e667514e0bfb
+
+he orbiting satellites. This scenario pushed the limits of our trajectory optimization framework, demanding high precision in trajectory planning and control.
 
