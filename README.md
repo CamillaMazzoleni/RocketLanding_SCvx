@@ -16,6 +16,7 @@ We developed the solution based on the following paper (Convex Optimisation for 
 ### Sequential Convex Programming (SCvx)
 
 SCvx stood at the core of our approach, offering a framework to iteratively linearize and solve the non-convex trajectory optimization problem as a series of convex subproblems. This method is particularly suited for dealing with the nonlinear dynamics and constraints of spacecraft navigation.
+src/pdm4ar/exercises/ex09/planner.py
 
 ### Discretization
 
