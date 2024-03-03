@@ -4,6 +4,10 @@
 ## Project Overview
 
 The essence of the project was to compute optimal trajectories for a spacecraft equipped with only two functional lateral thrusters. The goal was to reach a predefined target location while avoiding obstacles and minimizing fuel consumption, under the constraints of spacecraft dynamics and control limitations.
+
+The results presented are based on simulations, as we did not have access to a physical rocket for testing.
+
+
 <p float="left">
   <img src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/85fe672f-6c8a-4fed-8cb0-26ee7ded8488" width="300" />
   <img src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/6463292a-f1c5-4b7d-a8c8-9e9d91da04c4" width="300" /> 
@@ -13,7 +17,7 @@ The essence of the project was to compute optimal trajectories for a spacecraft 
 
 
 ## Methodological Approach
-We developed the solution based on the following paper (Convex Optimisation for Trajectory Generation) on SCvx, the planning method used in 2021 by spaceX to land their rocket on a moving platform in the middle of the ocean.
+We developed the solution based on the following paper [(Convex Optimisation for Trajectory Generation)](https://arxiv.org/pdf/2106.09125.pdf) on SCvx, the planning method used in 2021 by spaceX to land their rocket on a moving platform in the middle of the ocean.
 
 ### Sequential Convex Programming (SCvx)
 
@@ -31,7 +35,7 @@ To apply SCvx effectively, the project employed discretization techniques, inclu
 
 
 ## Results
-
+The results presented here are from simulations designed to closely mimic the real-world dynamics and constraints of spacecraft navigation.
 ### Scenario 1: Dodging Planets with a Static Goal
 The first scenario introduced the basic challenge of navigating around static obstacles (planets) to reach a fixed goal. The primary challenge was accurately modeling the planets as obstacles and generating efficient paths that minimize fuel consumption and time.
 
