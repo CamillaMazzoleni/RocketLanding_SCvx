@@ -4,7 +4,11 @@
 ## Project Overview
 
 The essence of the project was to compute optimal trajectories for a spacecraft equipped with only two functional lateral thrusters. The goal was to reach a predefined target location while avoiding obstacles and minimizing fuel consumption, under the constraints of spacecraft dynamics and control limitations.
-![292621458-86052460-b0d7-4436-b4fa-6d12e913f931](https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/85fe672f-6c8a-4fed-8cb0-26ee7ded8488)
+<p float="left">
+  <img src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/85fe672f-6c8a-4fed-8cb0-26ee7ded8488" width="100" />
+  <img src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/6463292a-f1c5-4b7d-a8c8-9e9d91da04c4" width="100" /> 
+</p>
+
 
 ## Methodological Approach
 We developed the solution based on the following paper (Convex Optimisation for Trajectory Generation) on SCvx, the planning method used in 2021 by spaceX to land their rocket on a moving platform in the middle of the ocean.
