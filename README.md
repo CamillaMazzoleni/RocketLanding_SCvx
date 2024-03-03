@@ -35,7 +35,7 @@ Building on the complexity, the second scenario added moving obstacles (satellit
 
 The final scenario introduced a moving goal, linked with one of the satellites, elevating the problem's complexity by requiring the spacecraft to predict the future position of the moving goal while avoiding t
 
-<video src="[https://user-images.githubusercontent.com/18750753/194152429-9d2d454f-a878-48fd-be8f-70cadf68d2bf](https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/93d01f6b-f09e-402d-93ab-e667514e0bfb).mp4" />
+<video src="https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/93d01f6b-f09e-402d-93ab-e667514e0bfb.mp4" />
 
 https://github.com/CamillaMazzoleni/RocketLanding_SCvx/assets/109732478/93d01f6b-f09e-402d-93ab-e667514e0bfb
 
